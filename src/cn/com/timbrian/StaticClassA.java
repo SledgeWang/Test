@@ -1,6 +1,6 @@
 package cn.com.timbrian;
 
-public class A {
+public class StaticClassA {
 	
 	static {
 		i = 1;
@@ -11,4 +11,8 @@ public class A {
 	}
 	
 	static int i;
+	
+	public static void main(String[] args) {
+		new StaticClassA();
+	}
 }
