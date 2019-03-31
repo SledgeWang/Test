@@ -7,6 +7,7 @@ public class StaticClassA {
 	}
 	
 	static { 
+		@SuppressWarnings("unused")
 		int i = 3;
 	}
 	

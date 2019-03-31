@@ -1,5 +1,6 @@
 package cn.com.timbrian.chapter2;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
@@ -40,6 +41,17 @@ public class MyArrayList<T> implements List<T> {
 
 		mal.remove(new Integer(2));
 		System.out.println(Arrays.toString(mal.toArray()) + " size = " + mal.size);
+		
+		List<Integer> mylist;
+		List<Integer> list;
+		list = new ArrayList<Integer>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+
+		mylist = new MyArrayList<Integer>();
+		mylist.addAll(list);
+		System.out.println(Arrays.toString(mylist.toArray()));
 	}
 
 	/**
