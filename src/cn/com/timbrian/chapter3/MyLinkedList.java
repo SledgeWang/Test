@@ -28,7 +28,6 @@ public class MyLinkedList<E> implements List<E> {
 			this.data = data;
 			this.next = null;
 		}
-		@SuppressWarnings("unused")
 		public Node(E data, Node next) {
 			this.data = data;
 			this.next = next;
