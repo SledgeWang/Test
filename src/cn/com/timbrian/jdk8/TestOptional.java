@@ -25,5 +25,6 @@ public class TestOptional {
 		
 		//如果Optional为空返回默认值
 		System.out.println("如果Optional为空返回默认值:" + optional2.orElse(stuVo));
+		
 	}
 }
